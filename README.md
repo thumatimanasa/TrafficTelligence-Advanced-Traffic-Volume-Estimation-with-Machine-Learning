@@ -124,7 +124,7 @@ You can download the trained model file from Google Drive:
 
 👉 [Click here to download] (https://drive.google.com/drive/folders/1sLDuugX8bWk-wvYR925ZKTRFOqW6AxVl?usp=drive_link)
 
-#### demo video
+#### 🔗 demo video
 
 you can see output 
 
