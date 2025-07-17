@@ -47,9 +47,14 @@ Manual counting and fixed-schedule estimations are often inaccurate. This projec
 
 ---
 
-## 📸 Screenshots
-### 🔹 Input Form
-<img width="1909" height="996" alt="Screenshot 2025-07-17 185732" src="https://github.com/user-attachments/assets/ecff2c69-5335-4fe2-885b-c1898c384212" />
+##  Screenshots
+### 🔹 Correlation Heatmap 
+<img width="1787" height="952" alt="Correlation Heatmap img" src="https://github.com/user-attachments/assets/7ee389f3-8f3c-4612-a475-14b58a4dac01" />
+
+### 🔹Pair plot 
+<img width="1906" height="946" alt="Pair plot img" src="https://github.com/user-attachments/assets/b7144951-d8d5-4858-9502-6745e205e27c" />
+### 🔹
+
 
 
 ### 🔹 Prediction Result
@@ -57,7 +62,7 @@ Manual counting and fixed-schedule estimations are often inaccurate. This projec
 
 ---
 
-## 🧾 Files & Folder Structure
+##  Files & Folder Structure
 
 ```
 Traffic_volume_estimation/
@@ -76,7 +81,7 @@ Traffic_volume_estimation/
 
 ---
 
-## 🌐 How to Use the App
+##  How to Use the App
 
 1. Run the app:
    ```bash
@@ -90,7 +95,7 @@ Traffic_volume_estimation/
 
 ---
 
-## 🔍 Key Features
+##  Key Features
 
 - ML-based prediction
 - Real-time input/output
@@ -100,7 +105,7 @@ Traffic_volume_estimation/
 
 ---
 
-## 📊 Technologies Used
+## Technologies Used
 
 | Area | Tools |
 |------|-------|
@@ -111,7 +116,7 @@ Traffic_volume_estimation/
 
 ---
 
-## 🧠 Learning Outcomes
+##  Learning Outcomes
 
 - End-to-end ML workflow (preprocess → train → deploy)
 - One-hot encoding, scaling, joblib
@@ -119,13 +124,13 @@ Traffic_volume_estimation/
 - Input handling and prediction on the web
 
 ---
-##### 🔗 Download Files
+#####  Download Files
 
 You can download the trained model file from Google Drive:
 
 👉 [Click here to download] (https://drive.google.com/drive/folders/1sLDuugX8bWk-wvYR925ZKTRFOqW6AxVl?usp=drive_link)
 
-#### 🔗 demo video
+####  demo video
 
 you can see output 
 
