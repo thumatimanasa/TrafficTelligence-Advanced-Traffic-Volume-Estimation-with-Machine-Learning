@@ -1,11 +1,11 @@
 # TrafficTelligence-Advanced-Traffic-Volume-Estimation-with-Machine-Learning
-## 🔍 Project Overview
+## Project Overview
 
 This project is a web-based application that estimates **traffic volume** at a given time and location using **Machine Learning**. It leverages historical traffic and environmental data (like weather, holidays, time) to make predictions. The system is built using a **Flask backend** and a trained machine learning model, providing a simple interface for users to input conditions and receive an estimated vehicle count.
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 With the rapid growth of urban areas, managing road traffic efficiently is a critical need. Predicting traffic volume accurately helps:
 - City planners optimize infrastructure.
@@ -16,7 +16,7 @@ Manual counting and fixed-schedule estimations are often inaccurate. This projec
 
 ---
 
-## 🛠️ (Step-by-Step process of the project)
+## (Step-by-Step process of the project)
 
 ### 1. Collected and Preprocessed Data
 - Used a dataset with features like:
@@ -49,7 +49,8 @@ Manual counting and fixed-schedule estimations are often inaccurate. This projec
 
 ## 📸 Screenshots
 ### 🔹 Input Form
-![Input Form](outputs/input_form.png)
+<img width="1909" height="996" alt="Screenshot 2025-07-17 185732" src="https://github.com/user-attachments/assets/ecff2c69-5335-4fe2-885b-c1898c384212" />
+
 
 ### 🔹 Prediction Result
 ![Prediction Result](outputs/prediction_result.png)
