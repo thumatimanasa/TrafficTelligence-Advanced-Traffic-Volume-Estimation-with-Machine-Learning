@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Volume Estimation</title>
+
+  <style>
+    body {
+      background-image: url('static/image2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      color: black;
+      font-family: Arial, sans-serif; 
+    }
+
+    .login {
+      
+      padding: 30px;
+
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 20px;
+      height: 40px;
+      width: 100%;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    h1 {
+      text-align:right;
+      font-weight: bold;
+      width: 90;
+    }
+    h2 {
+      text-align: left;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login">
+    <h1>Traffic Volume Estimation</h1>
+    <h2>Please enter the following details</h2>
+
+    <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict') }}" method="post" target="_blank">
+
+      <label for="holiday">Holiday:</label>
+      <select id="holiday" name="holiday">
+        <option value="None">None</option>
+        <option value="Columbus Day">Columbus Day</option>
+        <option value="Veterans Day">Veterans Day</option>
+        <option value="Thanksgiving Day">Thanksgiving Day</option>
+        <option value="Christmas Day">Christmas Day</option>
+        <option value="New Years Day">New Years Day</option>
+        <option value="Washingtons Birthday">Washingtons Birthday</option>
+        <option value="Memorial Day">Memorial Day</option>
+        <option value="Independence Day">Independence Day</option>
+        <option value="State Fair">State Fair</option>
+        <option value="Labor Day">Labor Day</option>
+        <option value="Martin Luther King Jr Day">Martin Luther King Jr Day</option> 
+      </select>
+
+      <label>Temp:</label>
+      <input type="number" name="temp" placeholder="temp" required />
+
+      <label>Rain:</label>
+      <input type="number" min="0" max="1" name="rain" placeholder="rain" required />
+
+      <label>Snow:</label>
+      <input type="number" min="0" max="1" name="snow" placeholder="snow" required />
+
+      <label for="weather">Weather:</label>
+      <select id="weather" name="weather">
+        <option value="Clouds">Clouds</option>
+        <option value="Clear">Clear</option>
+        <option value="Drizzle">Drizzle</option>
+        <option value="Mist">Mist</option>
+        <option value="Haze">Haze</option>
+        <option value="Fog">Fog</option>
+        <option value="Thunderstorm">Thunderstorm</option>
+        <option value="Snow">Snow</option>
+        <option value="Rain">Rain</option>
+        <option value="Smoke">Smoke</option>
+      </select>
+
+      <label>Year:</label>
+      <input type="number" min="2012" max="2025" name="year" placeholder="year" required />
+
+      <label>Month:</label>
+      <input type="number" min="1" max="12" name="month" placeholder="month" required />
+
+      <label>Day:</label>
+      <input type="number" min="1" max="31" name="day" placeholder="day" required />
+
+      <label>Hours:</label>
+      <input type="number" min="0" max="24" name="hours" placeholder="hours" required />
+
+      <label>Minutes:</label>
+      <input type="number" min="0" max="60" name="minutes" placeholder="minutes" required />
+
+      <label>Seconds:</label>
+      <input type="number" min="0" max="60" name="seconds" placeholder="seconds" required />
+
+      <button type="submit">Predict</button>
+    </form>
+
+    <br>
+    <div style="text-align:center;">
+      {{ prediction_text }}
+    </div>
+  </div>
+</body>
+</html>
