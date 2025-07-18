@@ -48,14 +48,14 @@ Manual counting and fixed-schedule estimations are often inaccurate. This projec
 ---
 
 ##  Screenshots
-### 🔹 Correlation Heatmap 
+###  Correlation Heatmap 
 <img width="1787" height="952" alt="Correlation Heatmap img" src="https://github.com/user-attachments/assets/7ee389f3-8f3c-4612-a475-14b58a4dac01" />
 
-### 🔹Pair plot 
+### Pair plot 
 <img width="1906" height="946" alt="Pair plot img" src="https://github.com/user-attachments/assets/b7144951-d8d5-4858-9502-6745e205e27c" />
-### 🔹Input Form
+ Input Form
 <img width="1827" height="891" alt="input form img" src="https://github.com/user-attachments/assets/25f1a469-fbf2-4b09-9a5d-fa940af950c0" />
-### 🔹 Prediction Result
+ Prediction Result
 <img width="1643" height="804" alt="prediction result img" src="https://github.com/user-attachments/assets/759a9f7a-4660-49ff-a49e-c8699a207ca5" />
 
 
