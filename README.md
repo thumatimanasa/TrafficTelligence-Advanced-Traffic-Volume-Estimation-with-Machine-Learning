@@ -53,8 +53,10 @@ Manual counting and fixed-schedule estimations are often inaccurate. This projec
 
 ### Pair plot 
 <img width="1906" height="946" alt="Pair plot img" src="https://github.com/user-attachments/assets/b7144951-d8d5-4858-9502-6745e205e27c" />
-###  Input Form
+
+###  Input Form 
 <img width="1827" height="891" alt="input form img" src="https://github.com/user-attachments/assets/25f1a469-fbf2-4b09-9a5d-fa940af950c0" />
+
 ###  Prediction Result
 <img width="1643" height="804" alt="prediction result img" src="https://github.com/user-attachments/assets/759a9f7a-4660-49ff-a49e-c8699a207ca5" />
 
@@ -129,10 +131,5 @@ You can download the trained model file from Google Drive:
 
 👉 [Click here to download] (https://drive.google.com/drive/folders/1sLDuugX8bWk-wvYR925ZKTRFOqW6AxVl?usp=drive_link)
 
-####  demo video
-
-you can see output 
-
-👉 [Click here to see demo video] (https://drive.google.com/file/d/1mLnbOXpQF8y0W7vztgb8mSZLutgu4NEY/view?usp=drive_link) 
 
 
