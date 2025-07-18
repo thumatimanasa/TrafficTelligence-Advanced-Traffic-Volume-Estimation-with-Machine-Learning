@@ -16,7 +16,7 @@ Manual counting and fixed-schedule estimations are often inaccurate. This projec
 
 ---
 
-## (Step-by-Step process of the project)
+## Step-by-Step process of the project
 
 ### 1. Collected and Preprocessed Data
 - Used a dataset with features like:
@@ -53,9 +53,9 @@ Manual counting and fixed-schedule estimations are often inaccurate. This projec
 
 ### Pair plot 
 <img width="1906" height="946" alt="Pair plot img" src="https://github.com/user-attachments/assets/b7144951-d8d5-4858-9502-6745e205e27c" />
- Input Form
+## Input Form
 <img width="1827" height="891" alt="input form img" src="https://github.com/user-attachments/assets/25f1a469-fbf2-4b09-9a5d-fa940af950c0" />
- Prediction Result
+## Prediction Result
 <img width="1643" height="804" alt="prediction result img" src="https://github.com/user-attachments/assets/759a9f7a-4660-49ff-a49e-c8699a207ca5" />
 
 
